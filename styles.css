@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 127px;
+    height: 128px;
+    margin-left: 50%;
+    margin-top: 200px;
+}
+
+#imageTop{
+    transform-origin: bottom left;
+}
+#imageBottom{
+    margin-left: -2px;
+}
